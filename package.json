@@ -24,7 +24,7 @@
     "fs-extra": "^10.0.0",
     "graphql": "^15.6.1",
     "graphql-request": "^3.5.0",
-    "ical-generator": "^2.2.0",
+    "ical-generator": "^3.6.1",
     "moment": "^2.29.1",
     "node-fetch": "^2.6.1",
     "os": "^0.1.1",
