@@ -23,7 +23,7 @@
     "dotenv": "^10.0.0",
     "fs-extra": "^10.0.0",
     "graphql": "^15.6.1",
-    "graphql-request": "^3.5.0",
+    "graphql-request": "^5.2.0",
     "ical-generator": "^2.2.0",
     "moment": "^2.29.1",
     "node-fetch": "^2.6.1",
