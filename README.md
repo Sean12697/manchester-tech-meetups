@@ -8,8 +8,13 @@ OLD VERSION: [https://github.com/Sean12697/MeetupManchesterTech](https://github.
 
 - [CompiledMCR Events (Manchester Tech Meetups)](#compiledmcr-events-manchester-tech-meetups)
   - [Table of Contents](#table-of-contents)
-  - [Prerequisites](#prerequisites)
   - [Installation](#installation)
+    - [Prerequisites/required software](#prerequisites/required-software)
+      - [Nodejs](#nodejs)
+        - [install NodeJS by download](#install-nodejs-by-download)
+        - [install NodeJS by package manager](#install-nodejs-by-package-manager)
+      - [Npm](#npm)
+      - [Project dependencies](#project-dependencies)
   - [Configuration](#configuration)
     - [Sources](#sources)
       - [Meetup](#meetup)
@@ -22,15 +27,35 @@ OLD VERSION: [https://github.com/Sean12697/MeetupManchesterTech](https://github.
   - [Deploying](#deploying)
   - [Contributing](#contributing)
 
-## Prerequisites
-
-To start using this project, you will need to have the following programs installed:
-
-- [NodeJS](https://nodejs.org/en/)
-
 ## Installation
 
-Once you have NodeJS installed, run the following command at the root of the project to download all the dependencies:
+### Prerequisites/required software
+
+To install the rest of the software you need (dependencies), you will need to have NodeJS and npm installed:
+
+####NodeJS
+
+NodeJS can be installed either by direct download or through your favourite supported package manager
+
+#####install NodeJS by download
+
+Go to the download page and follow the instructions there:
+
+- [NodeJS download page](https://nodejs.org/en/download/)
+
+#####install NodeJS by package manager
+
+There are a lot of options, thankfully the NodeJS team made a page that goes through most of them
+
+- [NodeJS package manager article](https://nodejs.org/en/download/package-manager/)
+
+####Npm
+
+Npm should already be included, if it is not then please either create an issue so we can document how to get it on your system or search online for how to do it on your system
+
+#### Project dependencies
+
+Run the following command at the root of the project to download all the dependencies:
 
 ```
 npm i
